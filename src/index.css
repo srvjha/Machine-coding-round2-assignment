@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+  }
+  
+  .dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .donegal-one-regular {
+    font-family: "Donegal One";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .dm-sans-unqiue {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 15.62px;
+  }
+
+  .dm-sans-unqiue1 {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 9px;
+    line-height: 11.72px;
+  }
+
+  .dm-serif-text-regular-italic-match {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    color:#000000B2;
+    font-size:18px;
+    line-height: 24.68px;
+  }
+
+  
+  .dm-sans-footer {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 8px;
+    line-height: 10.42px;
+    align-items: center;
+    color:#FFFFFF66;;
+    width: 100px;
+    height: 10px;
+    margin-top: -26px;
+    margin-left: 134px;
+    gap: 0px;
+    position: absolute;
+  
+  }
+  
+
+
+  
+
+  
+  
