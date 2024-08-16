@@ -5,7 +5,7 @@ import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route,Na
 import App from './App.jsx'
 import './index.css'
 import JokesMain from './components/Jokes/JokesHomePage.jsx';
-import CatListing from './components/Cat_Listing/CatListing.jsx';
+import CatHomePage from './components/Cat_Listing/CatHomePage.jsx';
 
 
 
@@ -15,7 +15,7 @@ const router  = createBrowserRouter(
         <Route path="/" element={<Navigate to="/random-user" />} />
         <Route path="/random-user" element={<App />} />
         <Route path="/random-jokes" element={<JokesMain />} />
-        <Route path="/cats-listing" element={<CatListing />} />
+        <Route path="/cats-listing" element={<CatHomePage />} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </>
     )

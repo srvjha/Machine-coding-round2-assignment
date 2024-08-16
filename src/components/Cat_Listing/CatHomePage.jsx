@@ -4,7 +4,7 @@ import CatListing from './CatListing'
 import catsbg from '../../assets/catsbg.png'
 
 
-const JokesMain = () => {
+const CatHomePage = () => {
   return (
     <>
     <div className="bg-[url(./assets/catsbg.png)] h-screen w-screen bg-gray-300 bg-cover p-10  bg-no-repeat">
@@ -27,4 +27,4 @@ const JokesMain = () => {
   )
 }
 
-export default JokesMain
+export default CatHomePage
