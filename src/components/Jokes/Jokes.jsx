@@ -93,7 +93,7 @@ const getRandomDate = () => {
           </div>
          
           <p className="-ml-[57px] mt-4 w-[477px] inter-p ">{randomJoke.content}</p>
-          <div className="text-gray-500 inter-tags mt-4 -ml-14"> {randomData.time} · {randomData.date} ·<span className='text-white inter-span'>{randomData.views.toLocaleString()}</span> Views</div>
+          <div className="text-gray-500 inter-tags mt-4 -ml-14"> {randomData.time} · {randomData.date} · <span className='text-white inter-span'>{randomData.views.toLocaleString()}</span> Views</div>
         </div>
       </div>
       <hr className='border-[#71767B] border-[0.5] ml-[2px] mt-3' />

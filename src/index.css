@@ -108,7 +108,47 @@ text-align: center;
 color:#FFFFFF66;
 }
 
+.dm-sans-cats-title{
+font-family: DM Sans;
+font-size: 28px;
+font-weight: 500;
+line-height: 36.46px;
+letter-spacing: -0.04em;
+
+}
   
+
+
+.dm-sans-cats-desc {
+  max-height: calc(1.2em * 3); /* Set the max height based on the number of lines (1.2em is line-height) */
+  line-height: 1.11rem; /* Adjust the line-height */
+  overflow: hidden;
+  position: relative;
+  font-family: "DM Sans", sans-serif;
+  font-family: 400;
+  font-size: 14px;
+  letter-spacing:-4%
+}
+
+.dm-sans-cats-desc::after {
+  content: "...";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: white; /* Match background color */
+  padding-left: 10px;
+}
+
+.dm-sans-cats-origin{
+  font-family: DM Sans;
+font-size: 14px;
+font-style: italic;
+font-weight: 600;
+line-height: 18.23px;
+letter-spacing: -0.04em;
+text-align: left;
+
+}
 
 
   
