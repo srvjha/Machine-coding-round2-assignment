@@ -68,6 +68,46 @@
     position: absolute;
   
   }
+
+  .inter-p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size:14px;
+    line-height: 16.94px;
+    letter-spacing: -2%;
+  }
+
+.inter-tags{
+  font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+line-height: 12.1px;
+letter-spacing: -0.02em;
+text-align: left;
+  }
+
+.inter-span{
+  font-family: Inter;
+font-size: 10px;
+font-weight: 600;
+line-height: 12.1px;
+letter-spacing: -0.02em;
+text-align: left;
+
+}
+
+.inter-chai{
+  font-family: Inter;
+font-size: 10px;
+font-weight: 600;
+line-height: 12.1px;
+letter-spacing: -0.02em;
+text-align: center;
+color:#FFFFFF66;
+}
+
   
 
 
